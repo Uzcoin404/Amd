@@ -8,7 +8,7 @@
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(background.jpeg);
+        url("../img/background.jpeg");
     background-size: cover;
     background-position: center;
     padding-top: 15px;
@@ -73,7 +73,7 @@
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
-    font-family: roboto;
+    font-family: "Roboto";
     font-size: 20px;
 }
 
@@ -88,7 +88,7 @@ button {
     color: white;
     cursor: pointer;
     border: 1px solid teal;
-    transition: .3s;
+    transition: 0.3s;
     font-size: 20px;
 }
 button:hover {
@@ -99,10 +99,10 @@ button:hover {
     margin-top: 30px;
     margin-left: 30px;
 }
-.colimg{
+.colimg {
     display: flex;
     flex-direction: column;
 }
-.colimg{
+.colimg {
     width: max-content;
 }
