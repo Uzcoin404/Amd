@@ -1,0 +1,10 @@
+@media (max-width: 1400px) {
+    .about{
+        top: 60%;
+    }
+    .about_content{
+        margin: 0;
+        padding: 20px;
+        border-radius: 20px;
+    }
+}
