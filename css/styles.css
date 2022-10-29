@@ -38,6 +38,14 @@
 .logo {
     width: 100px;
 }
+.menu__btn {
+    display: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 999;
+}
 
 .navbar ul li {
     list-style: none;
@@ -82,7 +90,8 @@
 }
 .content p {
     margin: 20px auto;
-    font-weight: 100;
+    text-align: center;
+    font-weight: 500;
     line-height: 25px;
     font-family: "Roboto";
     font-size: 20px;
@@ -217,13 +226,53 @@
         #c471ed,
         #12c2e9
     ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-        to right,
-        #f64f59,
-        #c471ed,
-        #12c2e9
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.hero {
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to left,
+        #2c5364,
+        #203a43,
+        #0f2027
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to left,
+        #2c5364,
+        #203a43,
+        #0f2027
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 15px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.server{
+    padding-top: 15px;
+    background-color: #373B44;
+    min-height: 100vh;
+}
+.hero__title{
+    font-size: 36px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+.hero__subtitle{
+    font-size: 18px;
+    padding: 15px 0;
+    max-width: 700px;
+}
+.hero__text{
+    max-width: 500px;
+}
+.server .buynow_btn{
+    margin-top: 20px;
 }

@@ -1,10 +1,110 @@
 @media (max-width: 1400px) {
-    .about{
+    .about {
         top: 60%;
     }
-    .about_content{
+    .about_content {
         margin: 0;
         padding: 20px;
         border-radius: 20px;
+    }
+    .content {
+        top: 18%;
+    }
+    .content h1 {
+        font-size: 56px;
+        margin-top: 100px;
+    }
+    .content p {
+        font-family: "Roboto";
+        margin: 10px auto;
+        font-size: 18px;
+    }
+    .colimg {
+        max-width: 400px;
+    }
+}
+@media (max-width: 1024px) {
+    body, html{
+        overflow: hidden;
+    }
+    .navbar {
+        padding: 20px 15px;
+    }
+    .content{
+        top: 12%;
+    }
+    .buynow_btn{
+        margin-top: 100px;
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .colimg{
+        max-width: 350px;
+    }
+    .menu__btn{
+        display: block;
+        color: #fff;
+        font-size: 32px;
+        cursor: pointer;
+    }
+    .navbar ul{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        width: 270px;
+        height: 100%;
+        background-color: #04060e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 80px;
+        z-index: 999;
+        transform: translateX(100%);
+        transition: .3s;
+    }
+    .navbar.active ul{
+        transform: translateX(0);
+    }
+    .navbar ul li a{
+        color: #fff;
+    }
+}
+@media (max-width: 768px) {
+    .content{
+        top: 15%;
+    }
+    .colimg{
+        max-width: 300px;
+    }
+    .content h1 {
+        font-size: 44px;
+        margin-top: 50px;
+    }
+    .content p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 425px) {
+    .navbar{
+        padding: 10px 15px;
+    }
+    .container{
+        padding: 0 15px;
+    }
+    .content{
+        top: 15%;
+    }
+    .colimg{
+        display: none;
+    }
+    .content h1 {
+        font-size: 32px;
+        margin-top: 50px;
+    }
+    .content p {
+        font-size: 16px;
     }
 }
