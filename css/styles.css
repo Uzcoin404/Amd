@@ -101,7 +101,6 @@
     width: 250px;
     height: 60px;
     text-align: center;
-    margin-top: 150px;
     border-radius: 30px;
     font-weight: bold;
     background: transparent;
@@ -110,6 +109,11 @@
     border: 1px solid teal;
     transition: 0.3s;
     font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto 0;
 }
 .buynow_btn:hover {
     background-color: teal;
