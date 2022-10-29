@@ -175,6 +175,20 @@
 .card:hover {
     transform: translateY(-10px);
 }
+.store_card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    color: #000;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.3s;
+    max-width: 270px;
+}
 .card_img {
     max-width: 250px;
     max-height: 250px;
@@ -189,6 +203,9 @@
     margin: 15px 0 10px;
     font-size: 24px;
     max-width: 350px;
+}
+.store_card .card_title{
+    font-size: 22px;
 }
 .card_btn {
     height: 50px;
@@ -207,6 +224,12 @@
     background: -webkit-linear-gradient(to right, #f9d423, #ff4e50);
     background: linear-gradient(to right, #f9d423, #ff4e50);
 }
+.card__price{
+    color: #333;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
 .shop_header {
     height: 80px;
     background-color: rgba(255, 255, 255, 0.2);
